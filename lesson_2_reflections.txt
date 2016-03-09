@@ -3,3 +3,13 @@ unless you initialize the repository the.git directory is not created and git do
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 staging are is the area which is tracked by Git and the chanegs in the staging area file will be commited.it adds value to separate commits with logical changes in different files.
+
+How can you use the staging area to make sure you have one commit per logical change?
+staging are can be used to make sure u have one commit perlogical change by adding file to staging are after the change in working directory has been made and then comparing it against the most recent commit in the repository.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+it will help organise history when you want track changes separtely for a separate feature etc.
+How do the diagrams help you visualize the branch structure?
+
+they help u track down the parent of the commits and also if any commit is unreachable etc
